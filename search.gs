@@ -4,6 +4,7 @@
  *
  * Copyright 2021 Hironori Yoshida
  * Released under the MIT license
+ * https://github.com/piropiro2018/SpreadSheet-Range-specification-Search
  */
 function onOpen() {
     SpreadsheetApp
