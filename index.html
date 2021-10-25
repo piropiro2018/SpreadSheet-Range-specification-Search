@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons1.css">
+    <?!= HtmlService.createHtmlOutputFromFile('lib').getContent(); ?>
+  </head>
+  <body>
+    <div class="sidebar">
+        <label style="display: inline-block;height: 20px;">キーワード</label><input type="text" id="kw" style="display: inline-block;height: 20px;width:120px;"><span id="status" style="display: inline-block;height: 20px;"></span>
+    </div>
+        <?!= HtmlService.createHtmlOutputFromFile('js').getContent(); ?>
+  </body>
+</html>
